@@ -18,7 +18,7 @@ func NewMap() *Map {
 	}
 }
 
-// Len возвращает количество элементов в Map.
+// Len возвращает количество элементов в Map
 func (m *Map) Len() int64 {
 	return int64(len(m.mp))
 }
